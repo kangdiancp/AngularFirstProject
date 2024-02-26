@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem;" >
+    <img src="{{paslon.photo}}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{paslon.namaPaslon}}</h5>
+        <p class="card-text">{{paslon.moto}}</p>
+        <p class="card-text">Votes : {{paslon.votes}}</p>
+        <a (click)="voteUp()" class="btn btn-primary" style="margin-right: 5px;">VoteUp</a>
+        <a (click)="voteDown()" class="btn btn-primary">VoteDown</a>
+    </div>
+</div>
